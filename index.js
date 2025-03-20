@@ -1,7 +1,7 @@
 import express from "express";
-app.set('view engine', 'ejs');
 const app = express();
 const port = 3000;
+app.set('view engine', 'ejs');
 
 app.get("/", (req, res) => {
   const data = {
